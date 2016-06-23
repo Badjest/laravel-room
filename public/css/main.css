@@ -1,0 +1,107 @@
+	*::-webkit-input-placeholder {
+		color: black;
+		opacity: 1;
+	}
+	*:-moz-placeholder {
+		color: black;
+		opacity: 1;
+	}
+	*::-moz-placeholder {
+		color: black;
+		opacity: 1;
+	}
+	*:-ms-input-placeholder {
+		color: black;
+		opacity: 1;
+	}
+	button:active, button:focus {
+		outline: none;
+	}
+	button::-moz-focus-inner {
+		border: 0;
+	}
+
+
+
+	body input:focus:required:invalid,
+	body textarea:focus:required:invalid{
+    color:inherit;
+    border-color: black;
+	}
+	body input:required:valid,
+	body textarea:required:valid {
+     color: black;
+	}
+
+	body {
+  min-height: 640px;
+  background-image: url(../img/top_bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  color: white;
+  padding-top: 32px;
+ font-family: "Raleway";
+  background-repeat: no-repeat;
+	}
+	.top_tx
+	{
+		font-size: 37px;
+		margin-top: 46px;
+	}
+	.tab 
+	{
+		font-size: 23px;
+		cursor: pointer;
+		display: inline-block;  
+background-color: rgba(255,255,255,.25);
+padding: 10px 15px;
+text-transform: uppercase;
+float: left;
+transition: all .25s ease;
+	}
+.tabs_header .tab_item{
+  background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    height: 189px;
+    width: 79%;
+    float: left;
+}
+.tabs_header .wrapper .active { background-color: rgba(255,255,255,.60); 
+color: black;}
+
+.tabs_header
+{
+margin-top: 16px; 
+}
+
+.form_begin label
+{
+display: block;
+    font-size: 21px;
+    margin-left: 19px;
+    margin-top: 18px;
+}
+#log
+{
+	margin-right: 14px;
+}
+#pass
+{
+	margin-right: 1px;
+}
+.form_begin button
+{
+	border: medium none;
+    font-size: 24px;
+    margin: 18px 155px;
+    padding: 2px 41px;
+}
+.form_begin input
+{
+	border: medium none;
+}
+
+#but2
+{
+	 margin: 18px 110px;
+}
